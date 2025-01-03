@@ -5,5 +5,4 @@ stages:
 build-job:
   stage: build
   script:
-    - docker build -t localhost:5000/fedimeow:latest .
-    - docker push localhost:5000/fedimeow:latest
+    - docker build -t fedimeow:latest .
